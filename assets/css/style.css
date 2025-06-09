@@ -90,7 +90,11 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    /* Add margin at the top to prevent header covering content */
     margin-top: 47px;
+    /* Enable flex properties for child element */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -194,6 +198,55 @@ hr {
 
 #photos {
     line-height: 0;
+}
+
+/* Form */
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60,60,60,0.6);
+    padding: 30px;
+}
+
+/* Style for the signup header */
+#signup-form>h2 {
+    color:#fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+background: transparent;
+color: #fafafa;
+width: 100%;
+height: 25px;
+margin: 5px 0 20px 0;
+border: 1px solid #fafafa;
+border-radius: 2px;
+padding: 0 5px;
+}
+
+/* Styling for radio buttons */
+.radio-buttons {
+    display: flex, 
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Styling for join button */
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size:100%;
 }
 
 /* Footer */
