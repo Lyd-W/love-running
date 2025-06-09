@@ -136,7 +136,7 @@ main {
 }
 
 #benefits-physical>div,
-benefits-mental>div {
+#benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -376,7 +376,7 @@ hr {
     }
 }
 
-/* Circle photo and text layour for large devices (laptops and desktops, 1200px and up) */
+/* Circle photo and text layout for large devices (laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
 
     /* Reasons selection */
