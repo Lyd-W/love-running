@@ -238,7 +238,7 @@ hr {
 
 /* Styling for radio buttons */
 .radio-buttons {
-    display: flex,
+    display: flex;
         justify-content: space-between;
     width: 100%;
 }
@@ -316,7 +316,7 @@ hr {
         max-width: 400px;
         position: absolute;
         left: 10%;
-        top: 150;
+        top: 150px;
     }
 
     .text-input:hover {
