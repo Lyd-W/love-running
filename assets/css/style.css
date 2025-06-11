@@ -141,11 +141,11 @@ main {
     margin-bottom: 20px;
 }
 
-#benefits-p {
+#benefits p {
     padding: 0 20px;
 }
 
-hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
@@ -238,9 +238,10 @@ hr {
 
 /* Styling for radio buttons */
 .radio-buttons {
-    display: flex;
-        justify-content: space-between;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 /* Styling for join button */
@@ -306,35 +307,13 @@ hr {
         margin: 0 0.5rem;
     }
 
-    /* Form */
-    #signup {
-        background-position: center;
-        position: relative;
-    }
-
-    #signup-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
-    }
-
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
-
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
-    }
-
     /* Main content */
     main {
-        /* Push main content down to accommodate larger header */
+    /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 
-    /* Hero image */
+    /* Hero */
     #cover-text {
         width: 300px;
         right: 50px;
@@ -362,6 +341,29 @@ hr {
     #photos {
         column-count: 3;
     }
+
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
