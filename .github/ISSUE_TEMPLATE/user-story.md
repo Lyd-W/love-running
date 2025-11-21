@@ -13,3 +13,8 @@ assignees: ''
 - [ ] Acceptable criteria 1
 - [ ] Acceptable criteria 2
 - [ ] Acceptable criteria 3
+
+**Tasks:**
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Task 3
